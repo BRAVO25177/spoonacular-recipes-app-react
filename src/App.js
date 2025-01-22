@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Pages from "./pages/Pages";
 import Category from "./components/Category";
 import Search from "./components/Search";
+import Chatbot from "./components/Chatbot";
 import styled from "styled-components";
 import { GiKnifeFork } from "react-icons/gi";
 
@@ -28,6 +29,7 @@ const App = () => {
           <Search />
           <Category />
           <Pages />
+          <Chatbot />
         </>
       )}
     </div>
